@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1SsqKPa6zc-mcxrxBAH6nOw9rdMfuPyhb'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1MeAet2Da3VUnVOL1pddBoP0T-KkrW1pX'
 export_file_name = 'export.pkl'
 
-classes = ['Tyrannosaurus rex', 'Velociraptor','Allosaurus','Spinosaurus','Deinonychus','Carnotaurus','Apatosaurus','Diplodocus','Brachiosaurus','Stegosaurus','Ankylosaurus','Triceratops','Iguanodon','Parasaurolophus']
+classes = ['Normal', 'Pneumonia']
 path = Path(__file__).parent
 
 app = Starlette()
